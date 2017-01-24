@@ -11,6 +11,7 @@ public class Arthimetic {
 	    	    return d;
 	    	   
 	     }
+	    
 		
 	    int e;
 	    public static int multi(int a , int b){
@@ -27,7 +28,10 @@ public class Arthimetic {
 	   	    return f;
 	    }
 
-	   
+	   public static void main sum2(int a,int b,int c){
+	   int d = a+b+c;
+	   return d;
+	   }
 	    public static void main(String[] args) {
         Arthimetic ar = new Arthimetic();
         int result = ar.sum(10,20);
