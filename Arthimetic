@@ -1,0 +1,54 @@
+
+public class Arthimetic {
+	public static  int sum(int a , int b){
+	   	int c = a+b;
+	    return c;
+ }
+
+ int d;
+	    public static int diff(int a , int b){
+	    	    int d = b-a;
+	    	    return d;
+	    	   
+	     }
+		
+	    int e;
+	    public static int multi(int a , int b){
+	   	
+	   	    int e = a*b;
+	   	 
+	   	    return e;
+	    }
+     int f;
+	    public static int divide(int a , int b){
+	   	
+	   	    int f = b/a;
+	   	   
+	   	    return f;
+	    }
+
+	   
+	    public static void main(String[] args) {
+        Arthimetic ar = new Arthimetic();
+        int result = ar.sum(10,20);
+        System.out.println("sum is;" + result);
+       
+        int result2 = ar.diff(10,20);
+        System.out.println("diff is;" + result2);
+        
+        int result3 = ar.multi(10,20);
+        System.out.println("multi is;" + result3);
+       
+        int result4 = ar.divide(10,20);
+        System.out.println("divide is;" + result4);
+       
+       }
+}
+
+
+	   
+
+
+
+
+
